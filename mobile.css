@@ -1,0 +1,108 @@
+@media(max-width:450px){
+
+    
+    header{
+        height: 100px; 
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.4);
+        gap: 10px;
+    }
+    
+    
+    .brand b{
+        display: none;
+    }
+    
+    header nav{
+        gap: 6px;
+        
+    }
+    
+    header nav a{
+        font-size: 15px;
+    }
+    
+    main{
+        width: 100%;
+        height: calc(100vh - 90px);
+        padding: 10px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .title{
+        width: 100%;
+        margin-top: 20px;
+        gap: 3px;
+    }
+    
+    .title h1{
+        font-size: 25px;
+    }
+    
+    .title p{
+        font-size: 15px;
+    }
+    .search{
+        width: 100%;
+        margin-top: 10px;
+        padding: 20px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .search input{
+        padding: 10px 20px;
+    }
+    
+    .search img{
+        position: absolute;
+        right: 75px;
+        opacity: 0.5;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    
+    .search img:hover{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    
+    .socials{
+        position: static;
+        transform:none;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+  
+    
+    footer{
+        width: 100%;
+        padding: 5px 20px;
+        background-color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    
+    }
+    
+    footer p{
+        font-size: 12px;
+    
+    }
+    
+}
